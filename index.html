@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="switch-btn/style.css">
+    <title>Toggle Button Example</title>
+</head>
+
+<body>
+    <script type="module">
+        import ToggleButton from './switch-btn/switchBtn.js';
+
+        const handleToggleChange = (newValue) => {
+            console.log("Toggle value changed to:", newValue);
+        };
+
+        new ToggleButton({
+            firstElement: 'Yes',
+            secondElement: 'Off',
+            btnWidth: '200px',
+            btnHeight: '45px',
+            value: true,
+            onChange: handleToggleChange
+        });
+    </script>
+</body>
+
+</html>

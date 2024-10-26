@@ -1,0 +1,23 @@
+{
+    "name": "react-toggle-button",
+    "version": "1.0.0",
+    "description": "A customizable toggle button component for React.",
+    "main": "switch-btn/switchBtn.js",
+    "scripts": {},
+    "peerDependencies": {
+        "react": "^17.0.0",
+        "react-dom": "^17.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/yourusername/react-toggle-button.git"
+    },
+    "keywords": [
+        "react",
+        "switch",
+        "toggle",
+        "button",
+        "component"
+    ],
+    "license": "MIT"
+}
