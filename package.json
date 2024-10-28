@@ -2,7 +2,7 @@
     "name": "simple-switch-button",
     "version": "1.0.4",
     "description": "A customizable toggle button component.",
-    "main": "switch-btn/switchBtn.js",
+    "main": "switch-btn/index.js",
     "scripts": {},
     "peerDependencies": {},
     "repository": {

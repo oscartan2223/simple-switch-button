@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
-import createToggleButton from './toggleButton';
+import createToggleButton from './switchBtn';
 
 const ToggleButtonWrapper = ({ className, options }) => {
     const containerRef = useRef(null);
 
     useEffect(() => {
         const toggleButton = createToggleButton(options, containerRef.current);
-        
+
         return () => {
             containerRef.current.removeChild(toggleButton.container);
         };
