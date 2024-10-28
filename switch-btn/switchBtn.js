@@ -62,4 +62,10 @@ class ToggleButton {
     }
 }
 
-export default ToggleButton;
+// Factory function to create a ToggleButton
+const createToggleButton = (options) => {
+    return new ToggleButton(options);
+};
+
+// Export the factory function
+export default createToggleButton;
