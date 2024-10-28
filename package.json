@@ -1,7 +1,7 @@
 {
     "name": "simple-switch-button",
     "version": "1.0.3",
-    "description": "A customizable toggle button component for React.",
+    "description": "A customizable toggle button component.",
     "main": "switch-btn/switchBtn.js",
     "scripts": {},
     "peerDependencies": {},
