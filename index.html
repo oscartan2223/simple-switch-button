@@ -10,13 +10,13 @@
 
 <body>
     <script type="module">
-        import ToggleButton from './switch-btn/switchBtn.js';
+        import createToggleButton from './switch-btn/switchBtn.js';
 
         const handleToggleChange = (newValue) => {
             console.log("Toggle value changed to:", newValue);
         };
 
-        new ToggleButton({
+        createToggleButton({
             firstElement: 'Yes',
             secondElement: 'Off',
             btnWidth: '200px',
