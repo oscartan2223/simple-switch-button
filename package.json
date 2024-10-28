@@ -4,10 +4,7 @@
     "description": "A customizable toggle button component for React.",
     "main": "switch-btn/switchBtn.js",
     "scripts": {},
-    "peerDependencies": {
-        "react": "^17.0.0",
-        "react-dom": "^17.0.0"
-    },
+    "peerDependencies": {},
     "repository": {
         "type": "git",
         "url": "https://github.com/oscartan2223/simple-switch-button"
