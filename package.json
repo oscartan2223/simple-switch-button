@@ -1,6 +1,6 @@
 {
     "name": "simple-switch-button",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "description": "A customizable toggle button component.",
     "main": "switch-btn/index.js",
     "scripts": {},
